@@ -139,3 +139,11 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
+.blg-small{
+    text-align: center;
+    display: block;
+}
+.link-project{
+    box-sizing: border-box;
+    margin:0px 25px;
+}
