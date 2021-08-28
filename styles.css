@@ -41,9 +41,11 @@ hr {
 }
 
 .link-primary {
+    
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
 }
 
 .link-secondary {
@@ -87,12 +89,14 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
+   
 }
 
 .hero .hero-heading {
@@ -106,6 +110,7 @@ hr {
 }
 .section{
     padding: 1rem;
+    margin:2rem;
 
 }
 .section h1 {
@@ -114,12 +119,18 @@ hr {
 .ow{
     background-color: var(--off-white);
 }
+
+/* footer */
 .footer{
     background-color: var(--primary-color);
     padding:2rem 1rem;
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;;
+}
+.footer .footer-heading{
+    font-size: large;
+    font-weight: bold;
 }
 .footer .link{
     color: white;
