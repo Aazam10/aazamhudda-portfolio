@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container container-center">
+
+        <h1>DOCUMENT OBJECT MODEL</h1>
+        <p class="blog-para">In this blog I will be writing about the document object model popularly known as the
+            DOM.Everything we do to interact with the browser is governed by the document object model.It is at the
+            heart of web page manipulation.</p>
+        <h2>WHAT IS DOM?</h2>
+        <p class="blog-para">
+            It is created by the browser when a HTML document loads inside it.Once the HTML document is loaded in the
+            browser the browser creates an object which models this document and this object is called Document Object
+            Model (DOM).
+        </p>
+        <p class="blog-para">Document object model describes our html page as a hierarchical tree of nodes.If we want to
+            interact with a web page we would use DOM to reach into this tree of nodes and we would get reference to
+            this node and when we get a reference to that node we can use different methods to manipulate the document
+            object.</p>
+        <h2>PROPERTIES AND METHODS</h2>
+        <p class="blog-para">We do have access to a lot of properties and methods on this document object so what are
+            properties and methods.</p>
+        <h3>Property</h3>
+        <p class="blog-para">A property is a value that you can get or set (like changing content of an html element.)
+        </p>
+        <h3>Method</h3>
+        <p class="blog-para">Method is an action that you can do on the referenced element like add or delete HTML
+            element.
+        </p>
+        <h2>QUERYING THE DOM</h2>
+        <p class="blog-para">We query the DOM to get reference on the elements on which we want to use properties or use
+            a method so we can either change its content or add or delete HTML elements
+        </p>
+        <ol>
+            <li>
+                <h3>Grab an element by ID:</h3>We can use the method getElementById which takes in the Id of an element
+                as
+                parameter to select an element with a unique id that returns a single element.
+            </li>
+            <li>
+                <h3>Grab an element by Class name:</h3> If we want to grab multiple elements we can grab them using
+                getElementsByClassName .This takes the class name as parameter and returns HTML Collection. We can grab
+                a single element using square brackets.
+            </li>
+            <li>
+                <h3>Grab an element by tag name:</h3> We can also get reference to the elements using their tag names.
+                The method
+                used for this is getElementsByTagName and takes the tag name as a parameter and returns a HTML
+                Collection.
+            </li>
+
+        </ol>
+        <h2>Using The Query Selector and Query SelectorAll Methods.</h2>
+        <p class="blog-para">Apart from the above mentioned ways we can also query the DOM using querySelector and
+            querySelectorAll methods.
+        </p>
+        <ol>
+            <li>
+                <h3>QuerySelector method:</h3>This returns a single element and takes in id,class name or tag as a
+                parameter. To give id as a parameter we need to use # before the name of the id, to give the class name
+                as parameter we need to give . before the name of the class and if the class has multiple elements it
+                will return the first element with that class name.
+            </li>
+            <li>
+                <h3>QuerySelectorAll:</h3> This is similar to query selector but is primarily used when we have to grab
+                multiple elements using the class name. This returns a nodeList when we query using the class name and
+                every element can be grabbed using the square bracket notation and we can also use the forEach method on
+                node LIst unlike the HTML Collection.
+            </li>
+        </ol>
+
+    </div>
+</body>
+
+</html>
