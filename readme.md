@@ -1,9 +1,5 @@
 # student portfolio
 
-Hi i am trying to learn web development and will make changes to my portfolio website and the readme file as and when I learn new things
+Hi i am trying to learn web development and have completed my portfolio website with 2 blogs and some projects.
 
-For now I know
 
-1. js
-1. nodejs
-1. html
