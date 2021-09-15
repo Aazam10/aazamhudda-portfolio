@@ -158,3 +158,8 @@ hr {
     margin:2rem auto;
     border-radius: 1rem;
 }
+.blog-para{
+    font-size:1.2rem;
+    line-height: 1.5rem;
+    margin: 1.5rem 0rem;
+}
